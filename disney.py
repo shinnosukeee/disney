@@ -99,7 +99,7 @@ def read_restaurant():
             dict_restaurant[name] = num
     return dict_restaurant
 
-# メール送信機能の追加
+# メール送信機能
 def create_mail_message_mime(from_email, to_email, message, subject, filepath=None, filename=""):
     # MIMETextを作成
     msg = MIMEMultipart()
